@@ -21,3 +21,17 @@ puts calificaciones.sort.reverse
 
 # Buscar un elemento en un arreglo
 puts calificaciones.include?(10) #Salida: true
+
+# Buscar primer elemento del arreglo
+puts calificaciones.first
+
+# Buscar último elemento del arreglo
+puts calificaciones.last
+
+# Devuelve el mismo arreglo pero sin elementos repetidos
+puts calificaciones.uniq
+
+# Devuelve un elemento aleatorio del arreglo
+puts calificaciones.sample
+
+
